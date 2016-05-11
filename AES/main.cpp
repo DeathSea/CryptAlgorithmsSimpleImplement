@@ -79,7 +79,7 @@ int main()
 		'5',
 	};
 	SetKeyLength(128);
-	Cipher(B,key,R);
+	EncdeAES(B,key,R);
 	std::cout << "AFTER AES, THE STATE IS:" << endl;
 	outputSTATE();
 	
@@ -87,7 +87,7 @@ int main()
 	std::cout << "AFTER DeAES, THE STATE IS:" << endl;
 	outputSTATE();
 
-	Cipher(TESTSTR, TESTKEY, R);
+	EncdeAES(TESTSTR, TESTKEY, R);
 	std::cout << "AFTER AES, THE RESULT(IN hex) IS:" << endl;
 	for (int index = 0; index < 16; index++){ 
 		unsigned short E = R[index];E&=255; std::cout << std::hex << E;
