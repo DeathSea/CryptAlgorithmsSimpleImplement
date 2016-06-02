@@ -10,5 +10,6 @@
   *https://en.wikipedia.org/wiki/Rijndael_S-box    
   *https://en.wikipedia.org/wiki/Rijndael_mix_columns     
 #RSA
-  还没动手，找素数好难     
+  基本写完，处于能用的地步
   \_(:з」∠)_
+  然而还是会出现溢出然后解密算不对的状况，这个我真的搞不动啊！！！
